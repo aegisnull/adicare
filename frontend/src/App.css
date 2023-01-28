@@ -8,9 +8,12 @@
 /* Default fonts variables */
 
 :root {
-  --light-color: #fff;
-  --dark-color: #000;
-  --accent-color: #ff6b08;
+  --light-color: #ffffff;
+  --light-gray-color: #cdcfd6;
+  --dark-gray-color: #575f75;
+  --dark-color: #1a1d44;
+  --accent-color: #01bdf3;
+  --dark-accent-color: #014cc4;
 }
 
 .button {
