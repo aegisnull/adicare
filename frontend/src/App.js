@@ -1,9 +1,13 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Startup from './components/Startup/Startup';
 
 function App() {
   return (
     <div className='App'>
-      <h1>AdiCare</h1>
+      <Routes>
+        <Route path='/' element={<Startup />} />
+      </Routes>
     </div>
   );
 }
