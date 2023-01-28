@@ -2,3 +2,11 @@
   width: 320px;
   margin: auto;
 }
+
+/* Default fonts variables */
+
+:root {
+  --light-color: #fff;
+  --dark-color: #000;
+  --accent-color: #ff6b08;
+}
