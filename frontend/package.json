@@ -20,7 +20,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint ./src",
     "lint:fix": "eslint --fix",
-    "format": "prettier --write 'src/**/*.{js,jsx,scss}'"
+    "format": "prettier --write 'src/**/*.{js,jsx,scss}'",
+    "serve": "serve -s build -l 1028"
   },
   "eslintConfig": {
     "extends": [
