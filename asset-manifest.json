@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.49188afb.css",
+    "main.js": "/static/js/main.7ccbbef9.js",
+    "static/js/787.2b2e557c.chunk.js": "/static/js/787.2b2e557c.chunk.js",
+    "static/media/infirmary.gif": "/static/media/infirmary.d3f4fbe51b59b6bbd885.gif",
+    "static/media/logo.svg": "/static/media/logo.33b1ea7f70e48e0ba291bf09eb8026bd.svg",
+    "index.html": "/index.html",
+    "main.49188afb.css.map": "/static/css/main.49188afb.css.map",
+    "main.7ccbbef9.js.map": "/static/js/main.7ccbbef9.js.map",
+    "787.2b2e557c.chunk.js.map": "/static/js/787.2b2e557c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49188afb.css",
+    "static/js/main.7ccbbef9.js"
+  ]
+}
