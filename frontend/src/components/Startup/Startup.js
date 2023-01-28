@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Logo from '../../images/logo.svg';
 import SplashIcon from '../../images/splash.svg';
 import './Startup.scss';
@@ -13,7 +14,9 @@ function Startup() {
       </p>
       <div className='startup__buttons'>
         <button className='button'>Iniciar sesión</button>
-        <button className='button button_accent'>Registrarse</button>
+        <Link to='/registrarse'>
+          <button className='button button_accent'>Registrarse</button>
+        </Link>
       </div>
     </div>
   );
