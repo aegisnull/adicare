@@ -1,7 +1,8 @@
 @import url(./vendor/fonts.css);
 
 .App {
-  width: 320px;
+  width: 100vw;
+  max-width: 500px;
   margin: auto;
 }
 
@@ -27,10 +28,14 @@
 }
 
 .button:hover {
-  background-color: #ff8c3a;
+  background-color: var(--dark-gray-color);
 }
 
 .button_accent {
   color: var(--light-color);
   background-color: var(--accent-color);
+}
+
+.button_accent:hover {
+  background-color: var(--dark-accent-color);
 }
