@@ -1,0 +1,18 @@
+.register {
+  height: 95vh;
+  padding: 2vh;
+
+  &__container {
+    height: 86vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #f0f3fb;
+    border-radius: 32px;
+  }
+
+  &__title {
+  }
+
+  &__form {
+  }
+}
