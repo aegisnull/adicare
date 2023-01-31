@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Logo from '../../images/logo.svg';
-import SplashIcon from '../../images/splash.svg';
+import SplashIcon from '../../images/intro.svg';
 import './Startup.scss';
 
 function Startup() {
