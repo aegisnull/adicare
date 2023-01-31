@@ -8,7 +8,6 @@ function SignIn() {
         <img src={SignInIcon} alt='Register' className='signin__icon' />
         <h1 className='signin__title'>Iniciar Sesión</h1>
         <form className='signin__form'>
-          <input type='text' name='name' id='name' placeholder='Nombre' className='signin__input' />
           <input
             type='email'
             name='email'
@@ -23,7 +22,7 @@ function SignIn() {
             placeholder='Contraseña'
             className='signin__input'
           />
-          <button className='button button_accent'>Iniciar sesión</button>
+          <button className='button button_accent signin__button'>Iniciar sesión</button>
         </form>
         <p className='signin__notice'>
           Al crear una cuenta o iniciar sesión, aceptas nuestros
