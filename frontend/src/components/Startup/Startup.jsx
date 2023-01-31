@@ -14,7 +14,7 @@ function Startup() {
       </p>
       <div className='startup__buttons'>
         <button className='button'>Iniciar sesión</button>
-        <Link to='/registrarse'>
+        <Link to='/registro'>
           <button className='button button_accent'>Registrarse</button>
         </Link>
       </div>

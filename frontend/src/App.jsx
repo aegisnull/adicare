@@ -7,7 +7,7 @@ function App() {
     <div className='App'>
       <Routes>
         <Route path='/' element={<Startup />} />
-        <Route path='/registrarse' element={<Register />} />
+        <Route path='/registro' element={<Register />} />
       </Routes>
     </div>
   );
