@@ -1,0 +1,68 @@
+.register {
+  height: 95vh;
+  padding: 2vh;
+
+  &_bold {
+    font-weight: 600;
+    text-decoration: underline;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 86vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #f0f3fb;
+    border-radius: 32px;
+  }
+
+  &__icon {
+    width: 55%;
+  }
+
+  &__title {
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+    line-height: 39px;
+    text-align: center;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 90%;
+  }
+
+  &__input {
+    height: 50px;
+    padding: 0 20px;
+    color: #4f5665;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    line-height: 22px;
+    border: 1px solid #dfe1e6;
+    border-radius: 8px;
+    outline: none;
+  }
+
+  &__notice {
+    width: 263px;
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: Inter, sans-serif;
+    line-height: 17.5px;
+    text-align: center;
+    opacity: 0.7;
+  }
+}
