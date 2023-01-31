@@ -13,8 +13,10 @@ function Startup() {
         Tu agenda de pacientes en un solo lugar y siempre bajo control
       </p>
       <div className='startup__buttons'>
-        <button className='button'>Iniciar sesión</button>
-        <Link to='/registrarse'>
+        <Link to='/signin'>
+          <button className='button'>Iniciar sesión</button>
+        </Link>
+        <Link to='/registro'>
           <button className='button button_accent'>Registrarse</button>
         </Link>
       </div>

@@ -1,4 +1,4 @@
-.register {
+.signin {
   height: 95vh;
   padding: 2vh;
 
@@ -53,6 +53,10 @@
     border: 1px solid #dfe1e6;
     border-radius: 8px;
     outline: none;
+  }
+
+  &__button {
+    margin-top: 30px;
   }
 
   &__notice {
