@@ -31,6 +31,10 @@ function Register() {
           />
           <button className='button button_accent'>Crear cuenta</button>
         </form>
+        <p className='register__notice'>
+          Al crear una cuenta o iniciar sesión, aceptas nuestros
+          <span className='register_bold'> Términos y Condiciones</span>.
+        </p>
       </div>
     </section>
   );
